@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8"> <!--Datos-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <!--DOCUMENTACION: TITULOS Y DESCRIPCIONES META-->
     <meta name="author" content="Simon Marquez">
     <meta name="keywords" content="Sistemas, ingenieria de sistemas, estudiante, javeriana, programador backend, programador frontend, desarrollador, linkeding, pontificia universidad javeriana">
@@ -19,15 +19,9 @@
 <body>
     <header>
         <!-- Poner menu, banner o carrusel -->
-        <nav>
-            <!-- <ol>
-                <li>Elemento 1: ordenadas</li>
-                <li>Elemento 2</li>
-                <li>Elemento 1</li>
-            </ol>
-            <hr> -->
+        <nav class="menuHeader">
+            <a href="#"><img src="./assets/logo.png" alt="logo simon marquez ramirez"></a>
             <ul>
-                <li><a href="#"><img src="./assets/logo.png" alt="logo simon marquez ramirez"></a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre mi</a></li>
                 <li><a href="#">Experiencia</a></li>
@@ -36,17 +30,17 @@
             </ul>
             <hr>
         </nav>
-        <section>
-            <img src="./assets/banner.png" alt="">
-            <h1>PLAYLIST FAVORITA</h1>
-            <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/co/playlist/feidawey/pl.u-9N9LvDLFjlmWWd?l=en-GB"></iframe>
-        </section>
     </header>
     <hr>
     <!-- Inicio de contenido -->
     <main>
-        <section>
-            <h1>SOBRE MI</h1>
+        <section id="seccionBanner">
+            <!-- <img src="./assets/banner.png" alt=""> -->
+            <h1>PLAYLIST<br>FAVORITA</h1>
+            <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/co/playlist/feidawey/pl.u-9N9LvDLFjlmWWd?l=en-GB"></iframe>
+        </section>
+        <section id="seccionSobreMi">
+            <h1>SOBRE MÍ</h1>
 
             <div>
                 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/zjt-mQTbGYk?si=HDVQHw26M_9YzINr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
@@ -63,8 +57,6 @@
                 <!-- <a href="https://youtu.be/zjt-mQTbGYk?si=qtzbwYThX8BbVpD1"><img src="./assets/logito.png" alt=""></a> -->
             </div>
             <img src="./assets/simon.jpg" alt="Foto de Simon">
-            <hr>
-            
         </section>
         <section>
             <img src="./assets/experiencia.png" alt="">
