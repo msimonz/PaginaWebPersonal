@@ -44,7 +44,7 @@ main{
 #seccionBanner{
     background-color: #0F0039;
     width:100%;
-    height: 90vh;
+    height: 70.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,30 +68,30 @@ main{
 }
 #seccionSobreMi{
     background-color: white;
-    width:100%;
-    height: 90vh;
+    width:200%;
+    height: 84.5vh;
+    margin-top: 13px;
 }
 #seccionSobreMi img{
     display: block;
     width: 40vh;
     height: 70vh;
-    margin-top: -400px;
-    margin-left: 25px;
+    margin-top: -340px;
+    margin-left: 100px;
 }
 #seccionSobreMi p{
     display: block;
     width: 100vh;
     height: 30vh;
-    margin-top: 130px;
-    margin-left: 450px;
+    margin-top: 70px;
+    margin-left: 460px;
     color: #0F0039;
 }
 #seccionSobreMi h1{
-    display: block;
+    /* display: block; */
     font-size: 70px;
     font-weight: 600;
     color: #0F0039;
-    display: block;
-    margin: 0 auto;
-    margin-left: 450px;
+    margin-top: 300px;
+    margin-left: 460px;
 }  
