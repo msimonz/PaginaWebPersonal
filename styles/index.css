@@ -68,7 +68,12 @@ body h1{
     font-size: 100px;
     font-weight: 900;
 }
+#seccionSerie{
+    background:linear-gradient(to right, #1a0062, #090021)!important;
+    height: 600px;
+}
 #seccionSerie h2{
+    padding-top: 100px;
     text-align: center;
     font-size: 50px;
     font-weight: 900;
@@ -88,10 +93,15 @@ body h1{
 .serie iframe{
     margin-right: 150px;
 }
+#seccionLibro{
+    background:linear-gradient(to left, #1a0062, #090021)!important;
+    height: 600px;
+}
 #seccionLibro h2{
     text-align: center;
     font-size: 50px;
     font-weight: 900;
+    padding-top: 100px;
 }
 
 .libro img{
